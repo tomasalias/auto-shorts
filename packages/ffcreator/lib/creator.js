@@ -443,4 +443,7 @@ class FFCreator extends FFCon {
   }
 }
 
+// Ensure the FFCreator.setFFPath() function is called during project initialization
+FFCreator.setFFPath();
+
 module.exports = FFCreator;
