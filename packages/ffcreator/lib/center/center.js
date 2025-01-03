@@ -294,4 +294,7 @@ const FFCreatorCenter = {
   }
 };
 
+// Ensure the FFCreatorCenter.setFFPath() function is called during project initialization
+FFCreatorCenter.setFFPath();
+
 module.exports = FFCreatorCenter;
